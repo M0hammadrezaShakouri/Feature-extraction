@@ -1,17 +1,26 @@
 # Feature-extraction
 PCA algorithm with SVD 
 
+Objective:
+The project aims to perform Principal Component Analysis (PCA) on the Mnist dataset, specifically focusing on handwritten digits. The Mnist dataset consists of 28x28 pixel images, each belonging to one of the 10 classes representing digits 0 through 9.
+
+Dataset:
+The Mnist dataset (mnistAll.mat) is provided for this project. It serves as a substantial database for handwritten digit recognition.
+
+Tasks:
+
+    Data Preparation:
+        Read 100 sample points from the Mnist dataset and organize them into a matrix named 'A'.
+
+    PCA Algorithm:
+        Center the data to ensure zero mean.
+        Apply PCA using Singular Value Decomposition (SVD).
+        Compute the transformation matrix 'V1'.
+
+    Singular Value Analysis:
+        Plot all the singular values of matrix 'A'.
+        Determine the optimal number of principal components to preserve the maximum variance of the data.
+  
+
+
 ![Capture](https://user-images.githubusercontent.com/90171077/153261294-3cb65752-13fe-4cd3-b14b-9eb93bf0b1a6.JPG)
-
-mnist dataset (mnistAll.mat) is provided for this project. 
-Mnist data is a large database of 28*28 handwritten digits with 10 classes of digits 0,1,...,9 .
-
-my objective in this project is to read 100 sample points and put them in a matrix named as A ,and finally I applied PCA algorithm  on mnist dataset.
-
-I performed the follownig tasks :
-  
-  .Center the data and perform PCA with SVD and compute the transformation matrix V1
-  
-  .Plot all the singular values of the matrix A and find out how many principal components should be used to preserve the maximum variance of the data.
-  
-  
