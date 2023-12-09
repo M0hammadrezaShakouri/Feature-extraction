@@ -7,7 +7,8 @@ The project aims to perform Principal Component Analysis (PCA) on the Mnist data
 Dataset:
 The Mnist dataset (mnistAll.mat) is provided for this project.
 
-Tasks:
+**Tasks:**
+
 Data Preparation:
         Read 100 sample points from the Mnist dataset and organize them into a matrix named 'A'.
         
